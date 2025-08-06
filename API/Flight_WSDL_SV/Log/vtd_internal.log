@@ -1,0 +1,7 @@
+2025-08-06 16:20:02,040 [20] ERROR - The server has returned a soap fault :    at HP.ST.Ext.WebServicesActivities.StServiceCallActivity.FailOnResponseErrors(Context context)
+   at HP.ST.Ext.WebServicesActivities.StServiceCallActivity.HandleOutputEnvelope(String receivedMessage)
+   at HP.ST.Ext.WebServicesActivities.StServiceCallActivity.SendRequestAndHandleResponse(ChannelBase channel, Message request, Context context)
+   at HP.ST.Ext.WebServicesActivities.StServiceCallActivity.SendRequestAndHandleResponse(String envelope, Context context, ChannelPipeline pipeline)
+   at HP.ST.Ext.WebServicesActivities.StServiceCallActivity.ExecuteStep()
+2025-08-06 16:20:02,046 [20] ERROR - Trying to get XmlNode for Xpath: /*[local-name(.)='Envelope'][1]/*[local-name(.)='Body'][1]/*[local-name(.)='GetFlightsResponse'][1]/*[local-name(.)='GetFlightsResult'][1]/*[local-name(.)='Flight'][1]/*[local-name(.)='FlightNumber'][1], XmlNode was null
+2025-08-06 16:20:02,047 [20] ERROR - StServiceCallActivity7, GetDataFromInDirections() failed : Trying to get XmlNode for Xpath: /*[local-name(.)='Envelope'][1]/*[local-name(.)='Body'][1]/*[local-name(.)='GetFlightsResponse'][1]/*[local-name(.)='GetFlightsResult'][1]/*[local-name(.)='Flight'][1]/*[local-name(.)='FlightNumber'][1], XmlNode was null

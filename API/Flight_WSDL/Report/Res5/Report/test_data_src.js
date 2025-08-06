@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xlsx',dataFileFormat:'excel',dataFileFolder:'C:\\Client Backup Files\\UFT\\API\\Flight_WSDL\\Report\\Res5',namePairs:[]}]};

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>b6b61895-0ed7-44c4-addb-c62aed28a4df</ID>
+  <Name>Flight Service</Name>
+  <Type>REST</Type>
+  <Version>1</Version>
+  <CreationDate>2025-05-12T20:47:46.874291+00:00</CreationDate>
+  <UpdateDate>2025-05-12T20:47:46.874291+00:00</UpdateDate>
+  <LoaderID>SignatureResourceHandler</LoaderID>
+  <MetaDataSignatureFile>2f15904f-59a3-4300-b263-4ae0c0d67963.xml</MetaDataSignatureFile>
+  <TestResourceId>2f15904f-59a3-4300-b263-4ae0c0d67963</TestResourceId>
+  <RepositoryType>TestRepository</RepositoryType>
+  <SignatureCodonId>HP.ST.RestDesignTime.RestServicesV2</SignatureCodonId>
+  <SignatureAddinVersion>2024.4.0.146</SignatureAddinVersion>
+  <Properties>
+    <Item>
+      <Key>
+        <string>RepositoryPath</string>
+      </Key>
+      <Value>
+        <string>C:\Client Backup Files\UFT\AOS\APITest4\EmbeddedResources</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>ResourceOrigin</string>
+      </Key>
+      <Value>
+        <string>C:\Client Backup Files\UFT\AOS\APITest4\EmbeddedResources\Flight Service</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>PrototypeDbVersion</string>
+      </Key>
+      <Value>
+        <string>2024.4.0.146</string>
+      </Value>
+    </Item>
+  </Properties>
+</ResourceManifest>

@@ -1,0 +1,1 @@
+-usr "C:\Client Backup Files\UFT\API\LoadTesting1\LoadTesting1.usr" -msg_suffix_enable 0 -out "C:\Client Backup Files\UFT\API\LoadTesting1\" -drv_log_file "C:\Client Backup Files\UFT\API\LoadTesting1\mdrv.log" -cfg "C:\Client Backup Files\UFT\API\LoadTesting1\default.cfg" -product_name vugen

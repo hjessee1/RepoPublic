@@ -1,0 +1,35 @@
+2025-08-06 16:20:01,671 [1] INFO  - Loaded appender: FileAppenderExternal
+2025-08-06 16:20:01,679 [1] INFO  - Loaded appender: UserLoggerAppender
+2025-08-06 16:20:01,679 [1] INFO  - Loaded appender: FileAppenderInternal
+2025-08-06 16:20:01,680 [1] INFO  - Loaded appender: FileAppenderExternal
+2025-08-06 16:20:01,680 [1] INFO  - Loaded appender: UserLoggerAppender
+2025-08-06 16:20:01,681 [1] INFO  - Loaded appender: FileAppenderInternal
+2025-08-06 16:20:01,937 [20] INFO  - Step 'Start' : Step 'Start' started
+2025-08-06 16:20:01,970 [20] INFO  - Step 'Start' ended successfully
+2025-08-06 16:20:01,972 [20] INFO  - Step 'Test Flow' : Step 'Test Flow' started
+2025-08-06 16:20:01,974 [20] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2025-08-06 16:20:01,976 [20] INFO  - Step 'GetFlights' : Step 'GetFlights' started
+2025-08-06 16:20:01,987 [20] INFO  - 
+Request:
+
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetFlights xmlns="HP.SOAQ.SampleApp">
+      <DepartureCity>Denver</DepartureCity>
+      <ArrivalCity>Portland</ArrivalCity>
+      <FlightDate>2025-12-31T00:00:00+00:00</FlightDate>
+    </GetFlights>
+  </Body>
+</Envelope>
+
+2025-08-06 16:20:02,000 [20] INFO  - URL: http://nimbusclient:7200/Flights_SOAP
+2025-08-06 16:20:02,036 [20] INFO  - Returning the response to the previous channel
+2025-08-06 16:20:02,041 [20] ERROR - Step 'GetFlights' : The server has returned a soap fault
+2025-08-06 16:20:02,043 [20] ERROR - Step 'GetFlights' ended unsuccessfully
+2025-08-06 16:20:02,044 [20] INFO  - Step 'CreateFlightOrder' : Step 'CreateFlightOrder' started
+2025-08-06 16:20:02,047 [20] ERROR - Step 'CreateFlightOrder' : Trying to get XmlNode for Xpath: /*[local-name(.)='Envelope'][1]/*[local-name(.)='Body'][1]/*[local-name(.)='GetFlightsResponse'][1]/*[local-name(.)='GetFlightsResult'][1]/*[local-name(.)='Flight'][1]/*[local-name(.)='FlightNumber'][1], XmlNode was null
+2025-08-06 16:20:02,048 [20] ERROR - Step 'CreateFlightOrder' ended unsuccessfully
+2025-08-06 16:20:02,050 [20] INFO  - Step 'Iteration 1' ended successfully
+2025-08-06 16:20:02,052 [20] INFO  - Step 'Test Flow' ended successfully
+2025-08-06 16:20:02,053 [20] INFO  - Step 'End' : Step 'End' started
+2025-08-06 16:20:02,061 [20] INFO  - Step 'End' ended successfully

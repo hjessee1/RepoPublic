@@ -1,0 +1,5 @@
+[Files]
+NumberOfFiles=3
+File1=C:\Client Backup Files\UFT\API\GetFlight_API;1
+File2=C:\Client Backup Files\UFT\API\Fllights_REST;1
+File3=C:\Client Backup Files\UFT\API\Flight_WSDL;1
