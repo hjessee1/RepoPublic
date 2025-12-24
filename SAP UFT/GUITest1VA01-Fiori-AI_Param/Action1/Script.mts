@@ -34,7 +34,7 @@ wait(5)
 AIUtil.FindTextBlock("Sign Out").Click
 AIUtil("button", "OK").Click
 
-
+Browser("CreationTime:=0").Close
 
 'Wait for an image to exist in a loop up to 15 times
 Function WaitUntilImage(inputText)
