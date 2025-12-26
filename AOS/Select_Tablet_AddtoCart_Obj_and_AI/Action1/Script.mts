@@ -13,7 +13,7 @@ Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("dvantage").
 
 AIUtil.SetContext Browser("creationtime:=0")
 AIUtil.FindTextBlock("TABLETS").Click
-AIUtil.FindTextBlock("HP ElitePad 1000 G2").Click
+AIUtil.FindTextBlock("$1,009.00").Click
 AIUtil("button", "ADD TO CART").Click
 AIUtil("shopping_cart").Click
 AIUtil("close").Click
