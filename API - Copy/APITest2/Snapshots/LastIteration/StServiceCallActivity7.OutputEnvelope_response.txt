@@ -1,1 +1,0 @@
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><DeleteAllFlightOrdersResponse xmlns="HP.SOAQ.SampleApp"><DeleteAllFlightOrdersResult>true</DeleteAllFlightOrdersResult></DeleteAllFlightOrdersResponse></s:Body></s:Envelope>
