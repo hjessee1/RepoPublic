@@ -1,6 +1,5 @@
 ﻿AIUtil.SetContext Browser("creationtime:=0")
 
-AIUtil.FindTextBlock("Create Sales Orders").Click
 AIUtil("text_box", "Division:").Type "00"
 AIUtil("text_box", "Distribution Channel:").Type "10"
 AIUtil("text_box", "Order Type:").Type "OR"
